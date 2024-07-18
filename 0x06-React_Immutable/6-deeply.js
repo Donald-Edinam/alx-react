@@ -1,5 +1,5 @@
-import { List } from "./node_modules/immutable/dist/immutable"
+import { Map } from "./node_modules/immutable/dist/immutable"
 
 export const mergeDeeplyElements = (page1, page1) => {
-    return List(page1).concat(List(page2));
+    return Map(page1).mergeDeep(Map(page2));
 }
